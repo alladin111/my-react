@@ -22,7 +22,6 @@ function App() {
     <div className="app">
       <h1>Мой список дел</h1>
       <TaskInput inputValue={inputValue} setInputValue={setInputValue} onAddTask={handleAddTask}></TaskInput>
-      
       <TaskList tasks={tasks} onDeleteTask={handleDeleteTask} />
       <p>Задачи: {tasks.length}</p>
       
