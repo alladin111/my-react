@@ -7,4 +7,5 @@ export default function TaskItem({ task, onDelete }) {
             </button>
         </li>
     );
+    
 }

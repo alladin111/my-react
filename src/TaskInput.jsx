@@ -10,4 +10,5 @@ export default function TaskInput({ inputValue, setInputValue, onAddTask }) {
             <button onClick={onAddTask}>Добавить</button>
         </div>
     );
+    
 }
