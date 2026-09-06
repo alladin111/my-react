@@ -6,6 +6,7 @@
 .pnp.js
 .test.js
 *.js
+!*.jsx
 # testing
 /coverage
 
