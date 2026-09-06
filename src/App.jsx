@@ -10,6 +10,7 @@ function App() {
   const handleAddTask = () => {
     if (inputValue.trim() === "") {
       alert("Введите текст задачи");
+      
       return;
     }
     setTasks([...tasks, {id:Date.now(), text: inputValue}]);
