@@ -75,6 +75,8 @@ li {
 .delete-btn{
   background-color: crimson;
 }
+
+
 .delete-btn:hover{
   background-color: brown;
 }
