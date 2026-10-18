@@ -48,30 +48,45 @@ my-react/
 
 git clone [<URL_репозитория>](https://github.com/alladin111/my-react/tree/main/my-react)
 cd my-react
+
 npm start
+
 npm install
 
+
 🧪 Запуск тестов
+
 Все тесты запускаются одной командой:
 
 
+
 npm test
+
 Ожидаемый результат:
 
-text
+
+
 PASS  tests/TaskInput.test.js
+
 PASS  tests/TaskItem.test.js
+
 PASS  tests/TaskList.test.js
+
 PASS  tests/App.test.js
+
 
 Test Suites: 4 passed, 4 total
 Tests:       8 passed, 8 total
 Запуск в режиме наблюдения
-bash
+
+
 npm test -- --watch
+
 Запуск с отчётом о покрытии
-bash
+
+
 npm test -- --coverage
+
 🧩 Описание тестов
 Файл	Что проверяется
 TaskInput.test.js	Рендер input и кнопки; изменение значения при вводе; вызов onAddTask при клике
